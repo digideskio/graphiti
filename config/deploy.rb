@@ -29,7 +29,7 @@ end
 
 task :testing do
   set :env, 'testing'
-  server 'testing-graphiti01.pp', :web, :app, :db, :primary => true
+  server 'testing-graphiti001.pp', :web, :app, :db, :primary => true
 end
 
 namespace :graphiti do
